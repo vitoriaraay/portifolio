@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principal: #26eac5;
+    --cor-principal: #cc00ff;
     --cor-escura: #354b45;
     --cor-cinza: #98b0a9;
     --cor-azulclaro: #3bbdff;
-    --cor-azulescuro: #0088dd;
+    --cor-azulescuro: #080077;
     --cor-preto: #000000;
     --cor-branco: #FFFFFF;
 }
@@ -23,8 +23,9 @@
     text-decoration: none;
     color: var(--cor-branco);
     font-size: 20px;
-    transition:  color 0.3s ease;
+    transition: color 0.3s ease;
 }
+
 #ancora:hover {
     color: var(--cor-principal);
     cursor: pointer;
